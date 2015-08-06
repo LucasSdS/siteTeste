@@ -1,0 +1,22 @@
+.reduzImagem{
+    width: 50%;
+    height: 50%;
+}
+
+.botao{
+    margin: 15px;
+}
+
+.texto{
+    background-color: #245269 ;
+    height: 1000px;
+}
+
+.margem{
+    margin-bottom: -20px;
+}
+
+#mohammed{
+    float: left;
+    margin: 10px;
+}

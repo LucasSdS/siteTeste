@@ -1,0 +1,82 @@
+            nav{
+                background-color: orange !important;
+                width: 100%;
+               /*font-family: batata;*/
+                font-family: 'Source Code Pro' ;
+                font-size: 24px;
+                color: peachpuff;
+                font-style: italic;
+                font-stretch: semi-expanded;
+                line-height: 50px;
+                font-weight: 300;
+                font-variant: small-caps;
+                text-decoration: blink;
+
+            }
+            a{
+                color: yellowgreen;
+                font-size: 27px;
+                text-decoration: none;
+            }
+            section{
+                font-size: 30px;
+            }
+            article{
+                font-size: 0.5em;
+            }
+           *{
+                background-color: lightskyblue;
+               cursor: url(../imgs/mohamed1.png), default;
+            }
+            nav a{
+                background-color: green;
+            }
+            nav a:hover,nav a:focus{
+                background-color: red;
+            }
+            nav a:active{
+                background-color: deeppink;
+            }
+            nav a:visited{
+                color: hotpink;
+            }
+            article:not(#paodebatata){
+                background-color: mediumspringgreen;
+            }
+           /*  @font-face{
+                 font-family: "batata";
+                 src: url("{{asset("fontes/asenine.eot")}}"),
+             url("{{asset("fontes/asenine.eot")}}?#iefix") format('embedded-opentype'),
+                 url("{{asset("fontes/asenine.svg")}}") format('svg'),url("{{asset("fontes/asenine.woff")}}") format('woff'),
+                 url("{{asset("fontes/asenine.ttf")}}") format('TrueType');
+             }*/
+            li::before, li::after{
+                content:"oi";
+            }
+            ::selection{
+                background-color: #080808;
+            }
+            article::first-letter{
+                color: yellow;
+            }
+            #feijao{
+                color: blueviolet;
+            }
+
+            li{
+                list-style: circle;
+            }
+
+            #borda{
+                border: 2px solid;
+                padding: 10px;
+                background-color: #269abc;
+                text-align: center;
+                margin: 30px;
+                box-shadow: #080808;
+                border-radius: 10px;
+                height: 150px;
+                display: inline-block;
+                position: relative;
+                top: 100px;
+            }
