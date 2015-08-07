@@ -27,3 +27,11 @@ Route::get('irado', function () {
 Route::get('testes', function () {
     return view('macho');
 });
+
+Route::get('wut', function () {
+    return view('naosei');
+});
+
+Route::get('trainee', function () {
+    return view('trainee');
+});

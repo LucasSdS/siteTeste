@@ -1,0 +1,36 @@
+.caixa{
+    width: 200px;
+    height:800px;
+    background-color:blue;
+    float:left;
+    margin:30px;
+    padding:10px;
+}
+.caixaAviso{
+    display: none;
+    width: 200px;
+    height:150px;
+    background-color: transparent;
+    border: solid;
+}
+.clear{
+    clear:both;
+}
+
+.tamanho{
+    width: 400px;
+    height: 400px;
+    font-weight: bold;
+}
+
+.azul{
+    background-color: red;
+}
+
+.popup{
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    color: black;
+}
